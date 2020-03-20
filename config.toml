@@ -1,0 +1,17 @@
+baseurl = "/"
+title = "My blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Welcome"
+    description = " This is my blog"
+    github = "https://github.com/XXX"
+    twitter = "https://twitter.com/moyinfesobi"
+    email = "moyinoluwafesobi7@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon,Jan 2,2006"
+[Permalinks]
+   post = "/:filename/"
